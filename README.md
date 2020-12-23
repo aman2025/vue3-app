@@ -1,4 +1,5 @@
 # vue3-app
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+vue3练习1
+>>>>>>> 2dbcef59663242e52654ab0e9cbf91324b068cc6
