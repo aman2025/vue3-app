@@ -38,21 +38,21 @@ export default {
           id: 1,
           done: false,
           time: time,
-          content: 'todo event 1',
+          content: 'todo event 1'
         },
         {
           id: 2,
           done: false,
           time: time,
-          content: 'todo event 2',
+          content: 'todo event 2'
         },
         {
           id: 3,
           done: false,
           time: time,
-          content: 'todo event 3',
-        },
-      ],
+          content: 'todo event 3'
+        }
+      ]
     });
     const todos = computed(() => {
       return state.todoList.filter(item => !item.done);
@@ -60,8 +60,8 @@ export default {
     return {
       todo,
       todos,
-      ...state,
+      ...state
     };
-  },
+  }
 };
 </script>
