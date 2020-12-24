@@ -1,7 +1,7 @@
 <template>
   <div class="todo">
     <a-button>新增-home</a-button>
-    <h1>todo page -{{ defaultColor }} - {{ author }}</h1>
+    <h1>home - todo page -{{ defaultColor }} - {{ author }}</h1>
   </div>
   <!-- 引用ant-design-vue -->
   <a-layout>
