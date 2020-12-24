@@ -13,13 +13,6 @@
           <a-button>新增</a-button>
         </template>
       </a-input-search>
-      <h2 class="title">待办事项</h2>
-      <a-card :title="`${index + 1}、${item.time}`" v-for="(item, index) in todos" :key="item.id">
-        <template v-slot:extra>
-          <a-switch v-model:checked="item.done" @change="handleCheck(item, true)" />
-        </template>
-        {{ item.content }}
-      </a-card>
     </a-layout-content>
   </a-layout>
 </template>
