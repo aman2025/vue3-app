@@ -1,6 +1,6 @@
 <template>
   <div class="todo">
-    <a-button>新增-home-at company</a-button>
+    <a-button>不能有什么</a-button>
     <a-button>new</a-button>
     <h1>home - todo page -{{ defaultColor }} - {{ author }}</h1>
   </div>
