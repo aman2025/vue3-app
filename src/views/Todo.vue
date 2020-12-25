@@ -1,6 +1,6 @@
 <template>
   <div class="todo">
-    <a-button>随便几个字</a-button>
+    <a-button>随便几个字2</a-button>
     <a-button>new</a-button>
     <h1>home - todo page -{{ defaultColor }} - {{ author }}</h1>
   </div>
